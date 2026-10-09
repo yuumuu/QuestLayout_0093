@@ -35,12 +35,12 @@ fun AktivitasPertama(modifier: Modifier) {
     ) {
         Text(
             stringResource(R.string.prodi),
-            fontSize = 35.sp,
+            fontSize = 32.sp,
             fontWeight = FontWeight.Bold
         )
         Text(
             stringResource(R.string.univ),
-            fontSize = 22.sp
+            fontSize = 14.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
         Card(
@@ -56,20 +56,26 @@ fun AktivitasPertama(modifier: Modifier) {
                 Image(
                     painter = gambar,
                     contentDescription = null,
-                    modifier = Modifier.size(100.dp).padding(5.dp)
+                    modifier = Modifier.size(100.dp).padding(10.dp)
                 )
-                Spacer(modifier = Modifier.width(30.dp))
+                Spacer(modifier = Modifier.width(20.dp))
                 Column() {
                     Text(
                         stringResource(R.string.nama),
-                        fontSize = 30.sp,
-                        fontFamily = FontFamily.Cursive,
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.SansSerif,
                         color = Color.White,
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
+                        stringResource(R.string.hp),
+                        fontSize = 14.sp,
+                        color = Color.Blue,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
                         stringResource(R.string.alamat),
-                        fontSize = 20.sp,
+                        fontSize = 14.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
