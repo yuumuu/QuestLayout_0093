@@ -3,7 +3,6 @@ package com.example.pertemuan4
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -82,7 +81,7 @@ fun DataCard(data: Data) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
-            containerColor = colorResource(R.color.card_background)
+            containerColor = colorResource(data.warnaRes)
         )
     ) {
         Row(
@@ -97,27 +96,35 @@ fun DataCard(data: Data) {
                 modifier = Modifier.size(70.dp)
             )
             Spacer(modifier = Modifier.width(16.dp))
-            Column {
+            Column(
+                verticalArrangement = Arrangement.spacedBy(0.dp)
+            ) {
                 Text(
-                    text = data.nama,
-                    fontSize = 18.sp,
+                    text = stringResource(data.namaRes),
+                    fontSize = 20.sp,
                     fontWeight = FontWeight.Bold,
                     fontFamily = FontFamily.SansSerif,
                     color = colorResource(R.color.profile_name)
                 )
-                Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = data.hp,
-                    fontSize = 14.sp,
+                    text = stringResource(data.hpRes),
+                    fontSize = 12.sp,
                     color = colorResource(R.color.profile_phone)
                 )
-                Spacer(modifier = Modifier.height(2.dp))
                 Text(
-                    text = data.alamat,
+                    text = stringResource(data.alamatRes),
                     fontSize = 14.sp,
                     color = colorResource(R.color.profile_address)
                 )
             }
         }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun AktivitasPertamaPreview() {
+    Pertemuan4Theme {
+        AktivitasPertama()
     }
 }

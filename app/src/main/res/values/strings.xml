@@ -2,8 +2,29 @@
     <string name="app_name">Pertemuan 4</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
-    <string name="nama">Haidar Yahya Mudhofar</string>
-    <string name="hp">089608494411</string>
-    <string name="alamat">Kontrakan Taluk Raya, Yogyakarta</string>
     <string name="copy">Copyright 2026</string>
+
+    <string name="nama_1">Haidar Yahya Mudhofar</string>
+    <string name="hp_1">081234567890</string>
+    <string name="alamat_1">Yogyakarta</string>
+
+    <string name="nama_2">Rangga Alfarizzy</string>
+    <string name="hp_2">081234567891</string>
+    <string name="alamat_2">Bantul</string>
+
+    <string name="nama_3">Fadil Asytar</string>
+    <string name="hp_3">081234567892</string>
+    <string name="alamat_3">Sleman</string>
+
+    <string name="nama_4">Farhan Rasyid Mustaqim</string>
+    <string name="hp_4">081234567893</string>
+    <string name="alamat_4">Kulon Progo</string>
+
+    <string name="nama_5">Rayhan Fatih Ramadhani</string>
+    <string name="hp_5">081234567894</string>
+    <string name="alamat_5">Lampung</string>
+
+    <string name="nama_6">Bima Eka Setiawan</string>
+    <string name="hp_6">081234567895</string>
+    <string name="alamat_6">Wonosobo</string>
 </resources>

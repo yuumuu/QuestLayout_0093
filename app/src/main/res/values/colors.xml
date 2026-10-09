@@ -11,6 +11,14 @@
     <color name="primary_text">#575454</color>
     <color name="screen_background">#FFFFFF</color>
     <color name="card_background">#263746</color>
+
+    <color name="card_bg_1">#263746</color>
+    <color name="card_bg_2">#1E3A8A</color>
+    <color name="card_bg_3">#065F46</color>
+    <color name="card_bg_4">#7C2D12</color>
+    <color name="card_bg_5">#581C87</color>
+    <color name="card_bg_6">#831843</color>
+
     <color name="profile_name">#FFFFFF</color>
     <color name="profile_phone">#90CAF9</color>
     <color name="profile_address">#FFE082</color>
