@@ -2,7 +2,6 @@
 
 Aplikasi Android sederhana berbasis **Jetpack Compose** untuk menampilkan daftar profil mahasiswa dalam bentuk kartu (`Card`) menggunakan `LazyColumn`.
 
-## 📸 Tampilan Aplikasi
-
-![Tampilan Aplikasi](./screenshot.png)
-
+<p align="center">
+  <img src="./screenshot.png" alt="Screenshot" width="320" />
+</p>
