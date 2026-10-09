@@ -44,7 +44,7 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             text = stringResource(R.string.prodi),
             color = colorResource(R.color.primary_text),
             fontSize = 28.sp,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.ExtraBold
         )
         Text(
             text = stringResource(R.string.univ),
@@ -97,13 +97,12 @@ fun DataCard(data: Data) {
             )
             Spacer(modifier = Modifier.width(16.dp))
             Column(
-                verticalArrangement = Arrangement.spacedBy(0.dp)
+                verticalArrangement = Arrangement.spacedBy((-4).dp)
             ) {
                 Text(
                     text = stringResource(data.namaRes),
-                    fontSize = 20.sp,
+                    fontSize = 18.sp,
                     fontWeight = FontWeight.Bold,
-                    fontFamily = FontFamily.SansSerif,
                     color = colorResource(R.color.profile_name)
                 )
                 Text(
