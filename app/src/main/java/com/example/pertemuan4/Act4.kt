@@ -48,11 +48,13 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(25.dp))
 
 
+
         Box(
             modifier = Modifier.fillMaxSize()
         ) {
             Text(
-                stringResource(R.string.copy),
+                text = stringResource(R.string.copy),
+                color = colorResource(R.color.footer_text),
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
                     .padding(bottom = 50.dp)
