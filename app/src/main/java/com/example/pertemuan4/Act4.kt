@@ -20,6 +20,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.Text
 import androidx.compose.material3.contentColorFor
@@ -47,7 +49,17 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(25.dp))
 
-
+        LazyColumn(modifier = Modifier
+            .fillMaxWidth()
+            .weight(1f)) {
+            items(
+                items = daftarData,
+                key = { it.id }
+            ) {
+                data ->
+                DataCard(data = data)
+            }
+        }
 
         Box(
             modifier = Modifier.fillMaxSize()
