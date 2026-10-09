@@ -5,3 +5,4 @@ Aplikasi Android sederhana berbasis **Jetpack Compose** untuk menampilkan daftar
 ## 📸 Tampilan Aplikasi
 
 ![Tampilan Aplikasi](./screenshot.png)
+
